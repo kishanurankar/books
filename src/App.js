@@ -5,11 +5,8 @@ function App() {
   const [book, setBook] = useState([]);
 
   const createBook = (title) => {
-    const updatedBooks = [
-      ...book, 
-      {id: 123, title: title}
-    ]
-    setBook(updatedBooks);
+    
+    setBook(title);
     console.log("Book name is", title);
     
   };
