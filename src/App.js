@@ -6,7 +6,7 @@ function App() {
 
   const createBook = (title) => {
     
-    setBook(updatedBooks);
+    setBook(title);
     console.log("Book name is", title);
     
   };
