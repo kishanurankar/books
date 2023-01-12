@@ -14,6 +14,9 @@ function App() {
   return (
     <div>
       <BookCreate onCreate={createBook}/>
+      <div>
+        Hello
+      </div>
     </div>
   );
 }
